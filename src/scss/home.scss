@@ -17,7 +17,9 @@
 .bacgorund--card {
     background-color: #121212;
 }
-
+    .vh--full {
+        height: 100vh;
+    }
 @media (min-width: 768px) {
     .full-vh {
         height: 100vh;
