@@ -1,42 +1,47 @@
-**{
+** {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-.color--principal{
+
+.color--principal {
     color: #02ACF0;
 }
-.bacgorund--principal{
+
+.bacgorund--principal {
     background: #27a8db;
     background: linear-gradient(1deg, rgba(39, 168, 219, 1) 0%, rgba(0, 0, 0, 1) 100%);
-    
+
 }
-.bacgorund--card{
+
+.bacgorund--card {
     background-color: #121212;
 }
 
 @media (min-width: 768px) {
-    .full-vh{
+    .full-vh {
         height: 100vh;
     }
 }
 
 .roboto-600 {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
+
 .roboto-400 {
-  font-family: "Roboto", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
 }
+
 body {
     background-color: #121212;
     height: 100%;
@@ -60,10 +65,12 @@ header {
 
 main {
     color: white;
-    h2{
+
+    h2 {
         color: #02ACF0;
     }
-    .bton{
+
+    .bton {
         background-color: #02ACF0;
         padding: 1rem 2rem;
         border-radius: 10px;
@@ -74,10 +81,25 @@ main {
 
 
 }
-footer{
-    section div img{
+
+footer {
+    section div img {
         // background-color: red;
         color: blue;
         fill: blue;
     }
+}
+
+.image-wrapper {
+    aspect-ratio: 5 / 3; // proporción uniforme
+    overflow: hidden;
+    border-radius: 8px;
+    background-color: #f1f1f1;
+}
+
+.img-proyect {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
 }
