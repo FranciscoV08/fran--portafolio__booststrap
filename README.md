@@ -19,11 +19,11 @@ Se trata de una página web estática realizada con **HTML**, **CSS**, **SASS** 
 Cloná este repositorio o descargá el archivo ZIP:
 
 ```bash
-git clone https://github.com/TU_USUARIO/TU_REPOSITORIO.git
+git clone https://github.com/FranciscoV08/fran--portafolio__booststrap
 
 ```
 Luego abrí el archivo index.html en tu navegador.
 
 ## 🖼️ Captura de pantalla
 
-[dev-Web-coder-House.png](https://postimg.cc/2LzFKFyf)
+[![dev-Web-coder-House.png](https://i.postimg.cc/PJD3NSkN/dev-Web-coder-House.png)](https://postimg.cc/2LzFKFyf)
